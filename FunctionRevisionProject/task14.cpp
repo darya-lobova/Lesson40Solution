@@ -4,8 +4,14 @@
 #include <iostream>
 using namespace std;
 
+bool is_digit(char ch, bool bl) {
+
+	return bl = (ch >= 48 && ch <= 57) ? true : false;
+
+}
+
 int main()
 {
-    cout << is_digit('5', true);
-    return 0;
+	cout << is_digit('5', true);
+	return 0;
 }
