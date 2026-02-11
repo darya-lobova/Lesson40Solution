@@ -5,10 +5,12 @@
 using namespace std;
 
 int main() {
+
+    cout << fibonacci(10) << endl;
     return 0;
 }
 
-... fibonacci(...) {
+long long fibonacci(int n) {
     if (n <= 1) {
         return n;
     }
