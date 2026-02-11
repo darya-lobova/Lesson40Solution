@@ -3,12 +3,16 @@
 #include <iostream>
 using namespace std;
 
-... print_number_and_text(... number, ... text)
+void print_number_and_text(int number, string text)
 {
     cout << number << ": " << text << endl;
 }
 
 int main()
 {
+
+    print_number_and_text(5, "stars");
     return 0;
 }
+
+
