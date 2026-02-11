@@ -7,7 +7,7 @@ using namespace std;
 bool is_vowel(char ch);
 
 int main() {
-    cout << is_vowel('a');
+    cout << (is_vowel('a') ? "Yes" : "No");
     return 0;
 }
 

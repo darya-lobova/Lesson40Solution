@@ -4,7 +4,7 @@
 using namespace std;
 
 float average(float a, float b, float c) {
-    return (a + b + c) / 3;
+    return (a + b + c) / 3.0f;
 }
 
 int main() {

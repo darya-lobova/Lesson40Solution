@@ -4,9 +4,9 @@
 #include <iostream>
 using namespace std;
 
-bool is_digit(char ch, bool bl) {
+bool is_digit(char ch, bool check) {
 
-	return bl = (ch >= 48 && ch <= 57) ? true : false;
+	return check && (ch >= 48 && ch <= 57);
 
 }
 

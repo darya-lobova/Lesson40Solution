@@ -13,5 +13,6 @@ char to_upper(char ch) {
 }
 
 int main() {
+    to_upper('n');
     return 0;
 }

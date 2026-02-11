@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-double divide(double a, float b);
+double divide(double a, double b);
 
 int main()
 {
@@ -12,6 +12,6 @@ int main()
     return 0;
 }
 
-double divide(double a, float b) {
+double divide(double a, double b) {
     return a / b;
 }

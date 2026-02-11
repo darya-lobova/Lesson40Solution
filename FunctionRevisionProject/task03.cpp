@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-string print_сhar_and_string(char symbol, string text)
+void print_сhar_and_string(char symbol, string text)
 {
     cout << symbol << ": " << text;
 }
@@ -11,6 +11,6 @@ string print_сhar_and_string(char symbol, string text)
 int main()
 {
 
-    cout << print_сhar_and_string('$', "dollars");
+    print_сhar_and_string('$', "dollars");
     return 0;
 }

@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-long long sum_large(int a, long long b);
+long long sum_large(short a, long long b);
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-long long sum_large(int a, long long b) {
+long long sum_large(short a, long long b) {
 
     return a + b;
 }
